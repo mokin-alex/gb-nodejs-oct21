@@ -1,0 +1,27 @@
+{
+  "name": "hw-4",
+  "version": "1.0.0",
+  "description": "nodejs hw4: cli-app",
+  "main": "cliapp.js",
+  "scripts": {
+    "start": "node cliapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reader": "cliapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mokin-alex/gb-nodejs-oct21.git"
+  },
+  "author": "Alex Mokin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokin-alex/gb-nodejs-oct21/issues"
+  },
+  "homepage": "https://github.com/mokin-alex/gb-nodejs-oct21#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "yargs": "^17.2.1"
+  }
+}
